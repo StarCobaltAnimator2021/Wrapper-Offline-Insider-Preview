@@ -1,6 +1,6 @@
 @echo off
 echo:
 echo Wrapper Offline Insider Preview
-echo Evaluation copy. Build 21292.rs_prerelease.240819-2235
+echo Evaluation copy. Build 21296.rs_prerelease.241001-0657
 echo:
 npm start
