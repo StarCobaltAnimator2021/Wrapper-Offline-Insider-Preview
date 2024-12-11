@@ -13394,13 +13394,7 @@
             <selection type="lower_body" state_id="default"/>
             <selection type="skeleton" state_id="stand"/>
             <selection type="upper_body" state_id="default"/>
-        </action>
-        <action id="coffee" name="Coffee" loop="Y" totalframe="1" enable="Y" category="daily life" is_motion="N">
-            <selection type="facial" facial_id="head_neutral"/>
-            <selection type="lower_body" state_id="default"/>
-            <selection type="skeleton" state_id="stand"/>
-            <selection type="upper_body" state_id="coffee"/>
-        </action>
+		</action>
         <action id="turn_head" name="Turn head" loop="Y" totalframe="1" enable="Y" category="poses" is_motion="N">
             <selection type="facial" facial_id="head_neutral"/>
             <selection type="lower_body" state_id="default"/>
@@ -13410,12 +13404,6 @@
         <action id="ptat_turn_head" name="Point at - turn head" loop="Y" totalframe="1" enable="Y" category="poses" is_motion="N">
             <selection type="facial" facial_id="head_neutral"/>
             <selection type="lower_body" state_id="default"/>
-            <selection type="skeleton" state_id="turnhead"/>
-            <selection type="upper_body" state_id="point_at"/>
-        </action>
-        <action id="ptat_turn_head_legs_bent" name="Point at - turn head - legs bent" loop="Y" totalframe="1" enable="Y" category="poses" is_motion="N">
-            <selection type="facial" facial_id="head_neutral"/>
-            <selection type="lower_body" state_id="laugh"/>
             <selection type="skeleton" state_id="turnhead"/>
             <selection type="upper_body" state_id="point_at"/>
         </action>
@@ -13506,12 +13494,6 @@
         <action id="xarmsadam" name="Crossed arms - Adam mix" loop="Y" totalframe="1" enable="Y" category="poses" is_motion="N">
             <selection type="facial" facial_id="head_neutral"/>
             <selection type="lower_body" state_id="default"/>
-            <selection type="skeleton" state_id="standweirdly"/>
-            <selection type="upper_body" state_id="crossed_arms"/>
-        </action>
-        <action id="xarmsadam_legs_bent" name="Crossed arms - Adam mix - Legs bent" loop="Y" totalframe="1" enable="Y" category="poses" is_motion="N">
-            <selection type="facial" facial_id="head_neutral"/>
-            <selection type="lower_body" state_id="laugh"/>
             <selection type="skeleton" state_id="standweirdly"/>
             <selection type="upper_body" state_id="crossed_arms"/>
         </action>
@@ -13671,7 +13653,7 @@
             <selection type="skeleton" state_id="stand"/>
             <selection type="upper_body" state_id="lie_down"/>
         </action>
-		<action id="on_knees_legs_bent" name="Hands on knees - legs bent" loop="Y" totalframe="1" enable="Y" category="poses" is_motion="N">
+        <action id="on_knees_legs_bent" name="Hands on knees - legs bent" loop="Y" totalframe="1" enable="Y" category="poses" is_motion="N">
             <selection type="facial" facial_id="head_neutral"/>
             <selection type="lower_body" state_id="laugh"/>
             <selection type="skeleton" state_id="stand"/>
@@ -13831,12 +13813,6 @@
             <selection type="facial" facial_id="head_happy"/>
             <selection type="lower_body" state_id="sit"/>
             <selection type="skeleton" state_id="sit"/>
-            <selection type="upper_body" state_id="chuckle"/>
-	    </action>
-        <action id="sit_chuckle_bend" name="Sit - chuckle - Bend" loop="Y" totalframe="1" enable="Y" category="emotion" is_motion="N">
-            <selection type="facial" facial_id="head_happy"/>
-            <selection type="lower_body" state_id="sit"/>
-            <selection type="skeleton" state_id="chuckle"/>
             <selection type="upper_body" state_id="chuckle"/>
         </action>
         <action id="sit_excited" name="Sit - excited" loop="Y" totalframe="1" enable="Y" category="emotion" is_motion="N">
@@ -15186,6 +15162,18 @@
             <state id="walk" filename="walk.swf"/>
         </component>
         <component type="lower_body" id="eve_grass_skirt_green" path="eve_grass_skirt_green" name="eve_grass_skirt_green" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+            <state id="dance" filename="dance.swf"/>
+            <state id="default" filename="default.swf"/>
+            <state id="excited" filename="excited.swf"/>
+            <state id="fearful" filename="fearful.swf"/>
+            <state id="kneel_down" filename="kneel_down.swf"/>
+            <state id="laugh" filename="laugh.swf"/>
+            <state id="lie_down" filename="lie_down.swf"/>
+            <state id="run" filename="run.swf"/>
+            <state id="sit" filename="sit.swf"/>
+            <state id="walk" filename="walk.swf"/>
+        </component>
+        <component type="lower_body" id="eve_mermaid_tail" path="eve_mermaid_tail" name="eve_mermaid_tail" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
             <state id="dance" filename="dance.swf"/>
             <state id="default" filename="default.swf"/>
             <state id="excited" filename="excited.swf"/>
@@ -18527,6 +18515,26 @@
 		        <component type="upper_body" id="eve_pinky_dinky_doo_dress" path="eve_pinky_dinky_doo_dress" name="eve_pinky_dinky_doo_dress" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
             <state id="chuckle" filename="chuckle.swf"/>
             <state id="coffee" filename="coffee.swf"/>
+            <state id="crossed_arms" filename="crossed_arms.swf"/>
+            <state id="dance" filename="dance.swf"/>
+            <state id="default" filename="default.swf"/>
+            <state id="excited" filename="excited.swf"/>
+            <state id="fearful" filename="fearful.swf"/>
+            <state id="gun_shoot" filename="gun_shoot.swf"/>
+            <state id="kneel_down" filename="kneel_down.swf"/>
+            <state id="laugh" filename="laugh.swf"/>
+            <state id="lie_down" filename="lie_down.swf"/>
+            <state id="point_at" filename="point_at.swf"/>
+            <state id="run" filename="run.swf"/>
+            <state id="sad" filename="sad.swf"/>
+            <state id="sit" filename="sit.swf"/>
+            <state id="talk" filename="talk.swf"/>
+            <state id="talk_on_phone" filename="talk_on_phone.swf"/>
+            <state id="taunt" filename="taunt.swf"/>
+            <state id="walk" filename="walk.swf"/>
+        </component>
+		        <component type="upper_body" id="eve_seashell_bra" path="eve_seashell_bra" name="eve_seashell_bra" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+            <state id="chuckle" filename="chuckle.swf"/>
             <state id="crossed_arms" filename="crossed_arms.swf"/>
             <state id="dance" filename="dance.swf"/>
             <state id="default" filename="default.swf"/>
@@ -24419,6 +24427,9 @@
         <state id="default" filename="default.swf"/>
     </component>
     <component type="hair" id="268" path="268" name="268" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+        <state id="default" filename="default.swf"/>
+    </component>
+    <component type="hair" id="269" path="269" name="269" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
         <state id="default" filename="default.swf"/>
     </component>
    <component type="hair" id="1001" path="1001" name="1001" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
