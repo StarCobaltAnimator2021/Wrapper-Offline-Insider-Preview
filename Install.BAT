@@ -74,7 +74,7 @@ cls
 
 echo:
 echo Wrapper: Offline Preinstallation Environment
-echo build 10.0.21318.1000 (rs_prerelease)
+echo build 10.0.21322.1000 (rs_prerelease)
 echo:
 echo Choose Options below.
 echo:
