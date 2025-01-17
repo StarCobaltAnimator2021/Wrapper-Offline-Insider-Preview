@@ -5,7 +5,7 @@ this css has the general header/footer layout stuff
 @import url("./modern-normalize.css");
 
 :root {
-	--primary: #00ff00;
+	--primary: #d85e27;
 	--transition: .15s ease;
 }
 
@@ -13,7 +13,7 @@ this css has the general header/footer layout stuff
 general
 **/
 html, body {
-	background: #00ff00;
+	background: #eee;
 	color: #474747;
 	font: 13px/1.5 'Sailec', Arial, sans-serif;
 	width: 100%;
@@ -40,8 +40,8 @@ header
 **/
 header {
 	/* style */
-	background: #ff0000;
-	color: #0000ff;
+	background: #1a1a1a;
+	color: #fff;
 	text-align: center;
 	/* layout */
 	padding-bottom: 13px;
@@ -68,7 +68,7 @@ header {
 	/* style */
 	font-size: 14px;
 	text-decoration: none;
-	color: #000000;
+	color: #fff;
 	border-radius: 4px;
 	transition: var(--transition);
 	/* layout */
@@ -81,7 +81,7 @@ header {
 	cursor: pointer;
 }
 /* small buttons */
-.button_small       { background: #00ff00 }
+.button_small       { background: #2a2a2a }
 .button_small:hover { background: #333; color: var(--primary) }
 /* big buttons */
 .button_big {
@@ -192,7 +192,7 @@ tabs
 footer
 **/
 footer {
-	background: #0000ff;
+	background: #1a1a1a;
 	margin-top: auto; /* footer at the foot */
 	display: flex;
 	justify-content: space-between;
