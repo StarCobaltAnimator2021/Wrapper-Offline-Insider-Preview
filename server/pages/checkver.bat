@@ -1,7 +1,7 @@
 @Echo off
 title Wrapper Offline Version Checker
 echo Wrapper Offline Insider Preview
-echo Version 2.0.1 (Build 21337.rs_prerelease.250125-1758)
+echo Version 2.0.1 (Build 21343.rs_prerelease.250127-2351)
 echo:
 echo New Features and Changes
 echo:
