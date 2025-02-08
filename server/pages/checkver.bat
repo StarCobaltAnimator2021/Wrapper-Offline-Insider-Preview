@@ -1,11 +1,11 @@
 @Echo off
 title Wrapper Offline Version Checker
-echo Wrapper Offline Insider Preview
-echo Version 2.0.1 (Build 21343.rs_prerelease.250127-2351)
+echo Wrapper Offline
+echo Version 2.0.1 (Build 21354.mn_release.250206-0218)
 echo:
 echo New Features and Changes
 echo:
-echo No New Features were included in this build.
+echo The "Insider Preview" branding is removed.
 echo:
 pause
 cls
